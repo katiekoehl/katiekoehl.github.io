@@ -60,6 +60,11 @@ a {
   transition: .4s;
 }
 
+a:active, a:visited {
+  background-color: white;
+  color: black;
+}
+
 a:hover {
   background-color: black;
   color: white;
